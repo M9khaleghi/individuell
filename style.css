@@ -4,6 +4,7 @@
    box-sizing: border-box;
    text-decoration: none;
    list-style: none;
+   background: black
 }
 
 body {
@@ -26,7 +27,7 @@ label.logo {
    line-height: 80px;
 }
 
-nav ul{
+nav ul {
    float: right;
    margin-right: 20px;
 }
@@ -44,7 +45,75 @@ nav ul li a {
    border-radius: 3px;
 
 }
-a.active,a:hover{
-   background: #ea3e3e;
+
+a.active,
+a:hover {
+   background: rgba(255, 0, 0, .4);
    transition: .5s;
 }
+
+
+.main {
+   float: left;
+   width: 75%;
+   color: white;
+   
+}
+a:visited {
+   color: white;
+   text-decoration: none;
+ }
+
+
+.sidebar {
+   float: left;
+   width: 25%;
+   color: white;
+   padding-left: 20px;
+   
+}
+
+
+
+.image {
+   width: 20px;
+   padding: 20px;
+}
+
+
+.artikel {
+   color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+
+.row::after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+
+.footer {
+   padding: 20px;
+   text-align: center;
+   color: white;
+   margin-top: 20px;
+}
+
+h1.active,
+h1:hover {
+   transition: .5s;
+}
+
+@media screen and (max-width: 700px) {
+
+   .main,
+   .sidebar {
+      width: 100%;
+      padding: 0;
+   }
+}
+
+
