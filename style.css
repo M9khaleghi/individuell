@@ -43,6 +43,11 @@ nav ul li a {
    font-size: 17px;
    padding: 7px 13px;
    border-radius: 3px;
+   float: left;
+   text-align: center;
+   text-decoration: none;
+   line-height: 25px;
+   
 
 }
 
@@ -53,16 +58,18 @@ a:hover {
 }
 
 
+
 .main {
    float: left;
    width: 75%;
    color: white;
-   
+
 }
+
 a:visited {
    color: white;
    text-decoration: none;
- }
+}
 
 
 .sidebar {
@@ -70,7 +77,7 @@ a:visited {
    width: 25%;
    color: white;
    padding-left: 20px;
-   
+
 }
 
 
@@ -115,5 +122,3 @@ h1:hover {
       padding: 0;
    }
 }
-
-
